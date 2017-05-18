@@ -95,17 +95,54 @@
             android:layout_height="wrap_content"
             android:textSize="19sp"
             android:layout_marginTop="20dp"
-
             android:text="                               Send feedback"
 
             android:textColor="#4dd2ff"/>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="126dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="140dp"
+            android:background="#4dd2ff"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:layout_weight="0.005" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="                         Tell us what you think"
             android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#4dd2ff"
+            android:text="                             Report a problem" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar3"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="130dp"
+            android:background="#4dd2ff"
+            android:layout_weight="0.005"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:layout_marginTop="4dp"
+            android:text="               Let us know about a bug or problem" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

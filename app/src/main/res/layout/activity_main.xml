@@ -24,8 +24,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.526"
-        tools:layout_editor_absoluteY="-6dp"
-        tools:layout_editor_absoluteX="-3dp"
         app:layout_constraintHorizontal_bias="0.416">
 
         <LinearLayout
@@ -33,7 +31,7 @@
             android:layout_height="71dp"
             android:background="#1074C2"
             android:orientation="horizontal"
-            android:layout_weight="0.01">
+            android:layout_weight="0.05">
 
             <TextView
                 android:id="@+id/textView2"
@@ -55,27 +53,86 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
             app:srcCompat="@drawable/google"
-            android:layout_weight="0.03" />
+            android:layout_weight="0.11" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="377dp"
             android:layout_height="wrap_content"
             android:textSize="22sp"
-
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="15dp"
-            android:text="    Sign in with your Google Account"
+            android:layout_marginTop="23dp"
+            android:text="   Sign in with your Google Account"
             android:layout_weight="0.03" />
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="335dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#F7F7F7"
+            android:orientation="vertical"
+            android:layout_weight="0.39"
+            android:weightSum="1">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="124dp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.03"
+                app:srcCompat="@drawable/login" />
+
+            <LinearLayout
+                android:layout_width="344dp"
+                android:layout_height="113dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="20dp"
+                android:background="#E1E1E1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="0.84"
+                    android:background="#fff"
+                    android:ems="10"
+                    android:hint="   Email"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#fff"
+                    android:ems="10"
+                    android:hint="   Password"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:background="#4C8CF1"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="22dp"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

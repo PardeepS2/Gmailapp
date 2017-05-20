@@ -69,7 +69,143 @@
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:orientation="horizontal"
-                    ></LinearLayout>
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="87dp"
+                        android:layout_height="75dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/a" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Richard,Alex,me"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Photgraphy classes"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="   I really would love to get some photo... "
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15m"
+                            android:layout_marginTop="20dp"
+                            android:textSize="20sp"/>
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="15dp"
+                            app:srcCompat="@drawable/c" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="87dp"
+                        android:layout_height="75dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/g" />
+
+                    <LinearLayout
+                        android:layout_width="273dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Jean-marc denis"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="10dp"
+
+                            android:text="Buisness trip"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="   Hi, I made a reservation for the hotel..."
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="2h"
+                            android:layout_marginTop="20dp"
+                            android:textSize="20sp"/>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            app:srcCompat="@drawable/c"
+                            android:layout_marginTop="15dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
             </LinearLayout>
         </ScrollView>
 

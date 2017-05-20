@@ -8,8 +8,8 @@
 
 
     <LinearLayout
-        android:layout_width="385dp"
-        android:layout_height="567dp"
+        android:layout_width="409dp"
+        android:layout_height="656dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="1dp"
         android:orientation="vertical"
@@ -101,7 +101,7 @@
                 android:id="@+id/imageView33"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/downarrow" />
         </LinearLayout>
@@ -139,7 +139,7 @@
                 android:id="@+id/imageView54"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/downarrow" />
         </LinearLayout>

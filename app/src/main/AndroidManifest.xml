@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main3Activity" />
-        <activity android:name=".mandeep1"></activity>
+        <activity android:name=".mandeep1" />
+        <activity android:name=".Main4Activity"></activity>
     </application>
 
 </manifest>

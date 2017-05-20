@@ -21,7 +21,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="98dp"
+            android:layout_height="85dp"
 
             android:background="#DA4436"
             android:orientation="horizontal"
@@ -29,25 +29,86 @@
 
             <ImageView
                 android:id="@+id/imageView29"
-                android:layout_width="27dp"
-                android:layout_height="33dp"
+                android:layout_width="23dp"
+                android:layout_height="31dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="30dp"
-                app:srcCompat="@drawable/arrow"
-                android:layout_weight="0.03" />
+                app:srcCompat="@drawable/arrow" />
 
             <TextView
                 android:id="@+id/textView54"
                 android:layout_width="wrap_content"
-                android:layout_height="62dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="27dp"
-                android:layout_weight="0.04"
                 android:text="Compose"
                 android:textColor="#FFFF"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="36dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="27dp"
+                app:srcCompat="@drawable/attach" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="34dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="27dp"
+                app:srcCompat="@drawable/sent" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="27dp"
+                app:srcCompat="@drawable/barbar" />
+
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="27dp"
+                android:text="From"
+                android:textColor="#7F7F7F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="27dp"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:text="Derek Walter <derek@theappl..." />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/downarrow" />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"></FrameLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

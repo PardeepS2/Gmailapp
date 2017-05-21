@@ -19,7 +19,8 @@
         <activity android:name=".Main3Activity" />
         <activity android:name=".mandeep1" />
         <activity android:name=".jeewanSecondScreen" />
-        <activity android:name=".mandeep2"></activity>
+        <activity android:name=".mandeep2" />
+        <activity android:name=".Main5Activity"></activity>
     </application>
 
 </manifest>

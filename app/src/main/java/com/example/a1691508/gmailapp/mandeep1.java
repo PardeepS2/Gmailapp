@@ -8,19 +8,22 @@ import android.widget.ImageView;
 
 public class mandeep1 extends AppCompatActivity {
 
-    ImageView ima;
+    ImageView imp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mandeep1);
-        ima = (ImageView)  findViewById(R.id.imageView2);
+        imp = (ImageView) findViewById(R.id.imageView2);
+
+        imp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mandeep1.this, mandeep2.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
-
-    public void mainClick(View view) {
-        Intent intent = new Intent(this, mandeep2.class);
-        startActivity(intent);
-    }
-
-
 }

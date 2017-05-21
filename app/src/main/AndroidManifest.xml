@@ -20,6 +20,10 @@
         <activity android:name=".mandeep1" />
         <activity android:name=".jeewanSecondScreen" />
         <activity android:name=".mandeep2" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".JeewanScreenOne" />
+
         <activity android:name=".Main5Activity"></activity>
     </application>
 

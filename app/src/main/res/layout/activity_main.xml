@@ -123,13 +123,14 @@
                 android:id="@+id/button3"
                 android:layout_width="347dp"
                 android:layout_height="wrap_content"
-                android:text="Sign in"
-                android:background="#4C8CF1"
-                android:textColor="#fff"
-                android:textStyle="bold"
-                android:layout_marginTop="15dp"
                 android:layout_marginLeft="22dp"
-                android:textAppearance="@style/TextAppearance.AppCompat" />
+                android:layout_marginTop="15dp"
+                android:background="#4C8CF1"
+                android:onClick="mainClick"
+                android:text="Sign in"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="#fff"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView14"

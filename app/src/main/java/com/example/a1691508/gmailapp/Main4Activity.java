@@ -10,21 +10,22 @@ import android.widget.ImageView;
 
 public class Main4Activity extends AppCompatActivity {
 
-    ImageView im;
+    ImageView imq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
-        im = (ImageView)  findViewById(R.id.imageView8);
+        imq = (ImageView) findViewById(R.id.imageView8);
+        imq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Main4Activity.this, mandeep1.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
-
-    public void mainClick(View view) {
-        Intent intent = new Intent(this, mandeep1.class);
-        startActivity(intent);
-    }
-
-
-
 }
 

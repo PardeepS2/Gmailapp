@@ -7,276 +7,276 @@
     tools:context="com.example.a1691508.gmailapp.Main4Activity">
 
 
-    <LinearLayout
-        android:layout_width="412dp"
-        android:layout_height="659dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="7dp"
-        android:layout_marginTop="4dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367"
-        tools:layout_editor_absoluteY="-5dp"
-        android:background="	#E1E1E1"
-        tools:layout_editor_absoluteX="0dp"
-        app:layout_constraintHorizontal_bias="0.538"
-        android:weightSum="1">
+    <!--<LinearLayout-->
+        <!--android:layout_width="412dp"-->
+        <!--android:layout_height="659dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="7dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.367"-->
+        <!--tools:layout_editor_absoluteY="-5dp"-->
+        <!--android:background="	#E1E1E1"-->
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--app:layout_constraintHorizontal_bias="0.538"-->
+        <!--android:weightSum="1">-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:background="#D84533"
-            android:orientation="horizontal">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="72dp"-->
+            <!--android:background="#D84533"-->
+            <!--android:orientation="horizontal">-->
 
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="wrap_content"
-                android:layout_height="27dp"
-                android:layout_marginTop="20dp"
-                app:srcCompat="@drawable/arrow" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView8"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="27dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--app:srcCompat="@drawable/arrow" />-->
 
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:text="Settings"
-                android:textColor="#fff"
-                android:textSize="25sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView28"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Settings"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="25sp" />-->
 
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="wrap_content"
-                android:layout_height="33dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="200dp"
-                app:srcCompat="@drawable/barbar" />
-        </LinearLayout>
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView9"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="33dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginLeft="200dp"-->
+                <!--app:srcCompat="@drawable/barbar" />-->
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="82dp"
-            android:background="#fff"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="82dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="vertical">-->
 
-            <TextView
-                android:id="@+id/textView41"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Inbox type"
-                android:textColor="#000"
-                android:textSize="20sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView41"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Inbox type"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp" />-->
 
-            <TextView
-                android:id="@+id/textView42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Default Inbox"
-                android:textSize="18sp"/>
-        </LinearLayout>
+            <!--<TextView-->
+                <!--android:id="@+id/textView42"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Default Inbox"-->
+                <!--android:textSize="18sp"/>-->
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="83dp"
-            android:layout_marginTop="2dp"
-            android:background="#fff"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="83dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="vertical">-->
 
-            <TextView
-                android:id="@+id/textView43"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Inbox categories"
-                android:textColor="#000"
-                android:textSize="20sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView43"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Inbox categories"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp" />-->
 
-            <TextView
-                android:id="@+id/textView45"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Primary, Social, Promotions"
-                android:textSize="18sp" />
-        </LinearLayout>
+            <!--<TextView-->
+                <!--android:id="@+id/textView45"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Primary, Social, Promotions"-->
+                <!--android:textSize="18sp" />-->
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="67dp"
-            android:layout_marginTop="2dp"
-            android:background="#fff"
-            android:orientation="horizontal"
-            android:weightSum="1">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="67dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="1">-->
 
-            <TextView
-                android:id="@+id/textView46"
-                android:layout_width="257dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Notifications"
-                android:textColor="#000"
-                android:textSize="20sp"
-                android:layout_weight="0.48" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView46"-->
+                <!--android:layout_width="257dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Notifications"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp"-->
+                <!--android:layout_weight="0.48" />-->
 
-            <ImageView
-                android:id="@+id/imageView15"
-                android:layout_width="wrap_content"
-                android:layout_height="33dp"
-                android:layout_marginTop="17dp"
-                android:layout_marginLeft="60dp"
-                app:srcCompat="@drawable/ti" />
-        </LinearLayout>
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView15"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="33dp"-->
+                <!--android:layout_marginTop="17dp"-->
+                <!--android:layout_marginLeft="60dp"-->
+                <!--app:srcCompat="@drawable/ti" />-->
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:layout_marginTop="2dp"
-            android:background="#fff"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="72dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="vertical">-->
 
-            <TextView
-                android:id="@+id/textView50"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Inbox sound  vibrate"
-                android:textColor="#000"
-                android:textSize="20sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView50"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Inbox sound  vibrate"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp" />-->
 
-            <TextView
-                android:id="@+id/textView52"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Sound on,notify once"
-                android:textSize="18sp"  />
-        </LinearLayout>
+            <!--<TextView-->
+                <!--android:id="@+id/textView52"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Sound on,notify once"-->
+                <!--android:textSize="18sp"  />-->
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:layout_marginTop="2dp"
-            android:background="#fff"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="72dp"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="vertical">-->
 
-            <TextView
-                android:id="@+id/textView53"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Inbox sound  vibrate"
-                android:textColor="#000"
-                android:textSize="20sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView53"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Inbox sound  vibrate"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp" />-->
 
-            <TextView
-                android:id="@+id/textView54"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Not set"
-                android:textSize="18sp"  />
+            <!--<TextView-->
+                <!--android:id="@+id/textView54"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="Not set"-->
+                <!--android:textSize="18sp"  />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:background="#fff"
-            android:layout_marginTop="2dp"
-            android:orientation="vertical">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="69dp"-->
+            <!--android:background="#fff"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:orientation="vertical">-->
 
-            <TextView
-                android:id="@+id/textView55"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:text="Vacation responder"
-                android:textColor="#000"
-                android:textSize="20sp" />
+            <!--<TextView-->
+                <!--android:id="@+id/textView55"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="Vacation responder"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp" />-->
 
-            <TextView
-                android:id="@+id/textView56"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="On, from Jun 1 to Jun 2"
-                android:textSize="18sp"  />
+            <!--<TextView-->
+                <!--android:id="@+id/textView56"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="On, from Jun 1 to Jun 2"-->
+                <!--android:textSize="18sp"  />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="83dp"
-            android:background="#fff"
-            android:orientation="vertical"
-            android:weightSum="1">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="83dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="vertical"-->
+            <!--android:weightSum="1">-->
 
-            <TextView
-                android:id="@+id/textView57"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="    Date usage"
-                android:textSize="17sp"
-                android:textColor="#4087F1"/>
+            <!--<TextView-->
+                <!--android:id="@+id/textView57"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="    Date usage"-->
+                <!--android:textSize="17sp"-->
+                <!--android:textColor="#4087F1"/>-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="horizontal">-->
 
-                <TextView
-                    android:id="@+id/textView58"
-                    android:layout_width="267dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="20dp"
-                    android:text=" Sync Gmail"
-                    android:textColor="#000"
-                    android:textSize="20sp" />
+                <!--<TextView-->
+                    <!--android:id="@+id/textView58"-->
+                    <!--android:layout_width="267dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:text=" Sync Gmail"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textSize="20sp" />-->
 
-                <ImageView
-                    android:id="@+id/imageView23"
-                    android:layout_width="wrap_content"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="13dp"
-                    android:layout_marginLeft="60dp"
-                    app:srcCompat="@drawable/xi" />
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView23"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="33dp"-->
+                    <!--android:layout_marginTop="13dp"-->
+                    <!--android:layout_marginLeft="60dp"-->
+                    <!--app:srcCompat="@drawable/xi" />-->
 
-            </LinearLayout>
+            <!--</LinearLayout>-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="2dp"
-            android:background="#fff"
-            android:orientation="horizontal">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:background="#fff"-->
+            <!--android:orientation="horizontal">-->
 
-            <TextView
-                android:id="@+id/textView38"
-                android:layout_width="267dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="15dp"
-                android:textColor="#000"
-                android:textSize="20sp"
-                android:text=" Days of mail to sync" />
-        </LinearLayout>
+            <!--<TextView-->
+                <!--android:id="@+id/textView38"-->
+                <!--android:layout_width="267dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:textColor="#000"-->
+                <!--android:textSize="20sp"-->
+                <!--android:text=" Days of mail to sync" />-->
+        <!--</LinearLayout>-->
 
-    </LinearLayout>
+    <!--</LinearLayout>-->
 </android.support.constraint.ConstraintLayout>

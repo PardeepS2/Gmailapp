@@ -95,13 +95,13 @@
                 android:layout_marginTop="27dp"
                 android:textColor="#000"
                 android:textSize="19sp"
-                android:text="Derek Walter <derek@theappl..." />
+                android:text="Derek Walter" />
 
             <ImageView
                 android:id="@+id/imageView33"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="180dp"
                 android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/downarrow" />
         </LinearLayout>
@@ -127,19 +127,20 @@
 
             <TextView
                 android:id="@+id/textView52"
-                android:layout_width="wrap_content"
+                android:layout_width="195dp"
                 android:layout_height="62dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="27dp"
                 android:textColor="#000"
-                android:textSize="19sp"
-                android:text="                                                                 " />
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="    I                                                              " />
 
             <ImageView
                 android:id="@+id/imageView54"
                 android:layout_width="25dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="117dp"
                 android:layout_marginTop="20dp"
                 app:srcCompat="@drawable/downarrow" />
         </LinearLayout>

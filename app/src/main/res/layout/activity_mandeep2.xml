@@ -152,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.27"
-                android:text="Automatically dounload attachments"
+                android:text="Automatically download attachments"
                 android:textSize="18sp"
                 android:textColor="#000"
                 android:layout_marginTop="10dp" />

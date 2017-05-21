@@ -20,7 +20,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526">
+        app:layout_constraintVertical_bias="0.526"
+        android:weightSum="1">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,7 +46,7 @@
             android:id="@+id/textView2"
             android:layout_width="261dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="30dp"
             android:layout_weight="0.00"
             android:text="  Account options"
@@ -55,7 +56,7 @@
             android:id="@+id/textView39"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="50dp"
             android:textColor="#000"
             android:textSize="18sp"
@@ -72,8 +73,8 @@
                 android:layout_height="wrap_content"
                android:layout_marginTop="2dp"
                 android:textColor="#000"
-                android:textSize="20sp"
-                android:text="          Every 15 minutes"
+                android:textSize="18sp"
+                android:text="     Every 15 minutes"
                 android:layout_weight="0.16" />
 
             <ImageView
@@ -92,17 +93,113 @@
 
             <ImageView
                 android:id="@+id/imageView22"
-                android:layout_width="92dp"
+                android:layout_width="73dp"
                 android:layout_height="36dp"
                 app:srcCompat="@drawable/ti"
-                android:layout_weight="0.04" />
+                android:layout_weight="0.02" />
 
             <TextView
                 android:id="@+id/textView44"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.27"
-                android:text="TextView" />
+                android:text="Notify me when email arrives"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="77dp"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/xi" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.27"
+                android:text="Sync email from this account"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="73dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="6dp"
+                app:srcCompat="@drawable/ti"
+                android:layout_weight="0.09" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.27"
+                android:text="Automatically dounload attachments"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginTop="210dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/w"
+                android:layout_weight="0.11" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:text="PREVIOUS" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.11"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:text="NEXT" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.11"
+                android:layout_marginTop="7dp"
+                app:srcCompat="@drawable/j" />
         </LinearLayout>
 
     </LinearLayout>
